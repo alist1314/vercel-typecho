@@ -20,10 +20,10 @@ require_once __TYPECHO_ROOT_DIR__ . '/var/Typecho/Common.php';
 // config db
 $db = new \Typecho\Db('Pdo_Pgsql', 'typecho_');
 $db->addServer(array (
-  'host' => 'ep-flat-mud-bb74j9yx-pooler.c-15.us-east-1.aws.neon.tech',
+  'host' => 'ep-plain-bonus-aolcai9c-pooler.c-2.ap-southeast-1.aws.neon.tech',
   'port' => 5432,
   'user' => 'neondb_owner',
-  'password' => 'npg_jz8DuZ3CMihw',
+  'password' => 'npg_pYCkFfm2A7SU',
   'charset' => 'utf8',
   'database' => 'neondb',
   'sslVerify' => false,
