@@ -20,10 +20,10 @@ require_once __TYPECHO_ROOT_DIR__ . '/var/Typecho/Common.php';
 // config db
 $db = new \Typecho\Db('Pdo_Pgsql', 'typecho_');
 $db->addServer(array (
-  'host' => 'aws-0-ap-northeast-2.pooler.supabase.com',
+  'host' => 'db.aagfxykwhixigqlieltd.supabase.co',
   'port' => 5432,
-  'user' => 'postgres.aagfxykwhixigqlieltd',
-  'password' => '56UuWtjAlOYwGpKK',
+  'user' => 'postgres',
+  'password' => 'nlSfYRyM0ztpbGiI',
   'charset' => 'utf8',
   'database' => 'postgres',
   'sslVerify' => true,
